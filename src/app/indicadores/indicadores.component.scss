@@ -1,0 +1,116 @@
+.icon-card {
+    font-size: 22px;
+}
+
+.mat-card-title {
+    font-size: 19px;
+}
+
+.icon-bitcoin {
+    color: #f28c15;
+}
+
+.icon-dolar {
+    color: #38953d;
+}
+
+.icon-cobre {
+    color: #b97132;
+}
+
+.icon-euro {
+    color: #d3b709;
+}
+
+.icon-utm {
+    color: #d3ae36;
+}
+
+.icon-tpm {
+    color: #1d5b84;
+}
+
+.icon-ivp {
+    color: #023293;
+}
+
+.icon-desempleo {
+    color: #f1a041;
+}
+
+.icon-uf {
+    color: #f0714f;
+}
+
+.card-hover {
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.exclamation-hover {
+    color: #757575;
+    font-size: 22px;
+    transition: all 0.3s;
+    &:hover {
+        transform: scale(1.2, 1.2);
+        color: #3a74fd;
+    }
+}
+
+.pb-100 {
+    padding-bottom: 80px !important;
+}
+
+$xs: 380px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+.masonry-container {
+    //some CSS
+    @media screen and (max-width: $xs) {
+        //xs
+        column-width: 12em;
+        column-gap: 1.4em;
+    }
+    @media screen and (max-width: $sm) and (min-width: $xs) {
+        //xs
+        column-width: 12.5em;
+        column-gap: 1.4em;
+    }
+    @media screen and (max-width: $md) and (min-width: $sm) {
+        //sm
+        column-width: 14em;
+        column-gap: 1.4em;
+    }
+    @media screen and (max-width: $lg) and (min-width: $md) {
+        //md
+        column-width: 15em;
+        column-gap: 1.4em;
+    }
+    @media screen and (max-width: $xl) and (min-width: $lg) {
+        //md
+        column-width: 15em;
+        column-gap: 1.4em;
+    }
+    @media screen and (max-width: $xxl) and (min-width: $xl) {
+        //md
+        column-width: 18em;
+        column-gap: 1.4em;
+    }
+    @media screen and (min-width: $xxl) {
+        //md
+        column-width: 18em;
+        column-gap: 1.4em;
+    }
+}
+
+.masonry {
+    display: inline-block;
+    margin: 0.25rem;
+    width: 100%;
+}
